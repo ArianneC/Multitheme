@@ -1,1 +1,101 @@
 /* Ingresa tu código CSS aquí */
+nav.navbar-default .navbar-nav > li.active > a, nav.navbar-default .navbar-nav > li.open > a, nav.navbar-default .navbar-nav > li:hover > a {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 37px;
+    border-top: 3px solid #45aed6;
+}
+
+.owl-carousel{
+	width: 100%;
+	height: 500px;
+}
+h2{
+	text-transform: uppercase;
+}
+.text-center{
+	text-align: center;
+}
+.text-white{
+	color: white;
+}
+.pl{
+	padding-left: 10%;
+}
+.mt{
+	margin-top: 5%;
+}
+.pb{
+	padding-bottom: 5%;
+}
+p{
+	font-size: 0.9em;
+}
+/*WORKS*/
+.portfolio{
+	background-color: #F1F1F1;
+}
+.buttons{
+	text-align: center;
+	margin-top: 3%;
+}
+.buttons a{
+	background-color: #EBEBEB;
+	padding: 1%;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+.buttons a{
+	color: black;
+}
+.buttons a:hover{
+  color: white;
+  background-color: #31A1C0;
+}
+#portfolio img{
+	width: 100%;
+}
+.design{
+	text-align: center;
+}
+.line-white{
+	width: 4%;
+	border: solid  1px #EBEBEB;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+i.fa.fa-circle{
+ color: #31A1C0;
+ background-color: white;
+ border-radius: 50%;
+ padding: 3px;
+}
+.line-blue{
+	border-bottom: 1px solid #31A1C0;
+	width: 30%;
+	display: inline-block;
+}
+.line-gray{
+	border-bottom: 1px solid #F1F1F1;
+	width: 40%;
+	display: inline-block;
+}
+
+/*About*/
+#about button{
+  border-radius: 0px;
+}
+
+#get-in-touch{
+	margin-top: 5%;
+	padding: 5% 0%;
+	background-color: #2CA5B3;
+}
+footer{
+	background-color: #2E2E2E;
+	color: white;
+	padding: 2% 0%;
+}
+footer i{
+	padding-left: 2%;
+}
